@@ -1,11 +1,12 @@
 package ru.netology;
+
 public class Main {
 
 
- public static void main(String[]args){
+    public static void main(String[] args) {
 
-BonusService service = new BonusService();
-     long bonus = service.calculate(5000,true);
-     System.out.println(bonus);
-        }
+        BonusService service = new BonusService();
+        long bonus = service.calculate(5000, true);
+        System.out.println(bonus);
+    }
 }
